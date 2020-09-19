@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursosHumanos", "RecursosHumanos\RecursosHumanos.csproj", "{FF6C4F56-FC9B-4722-AB23-DE9C3B952971}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.RecursosHumanos", "DataAccess\DataAccess.RecursosHumanos.csproj", "{08A5F270-5952-48CA-AB1C-B97E9577FA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLogic.RecursoHumanos", "BLogic.RecursoHumanos\BLogic.RecursoHumanos.csproj", "{B6963AD4-03D0-4721-B8EA-CC9873211647}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FF6C4F56-FC9B-4722-AB23-DE9C3B952971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF6C4F56-FC9B-4722-AB23-DE9C3B952971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF6C4F56-FC9B-4722-AB23-DE9C3B952971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A5F270-5952-48CA-AB1C-B97E9577FA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A5F270-5952-48CA-AB1C-B97E9577FA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A5F270-5952-48CA-AB1C-B97E9577FA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A5F270-5952-48CA-AB1C-B97E9577FA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6963AD4-03D0-4721-B8EA-CC9873211647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6963AD4-03D0-4721-B8EA-CC9873211647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6963AD4-03D0-4721-B8EA-CC9873211647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6963AD4-03D0-4721-B8EA-CC9873211647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

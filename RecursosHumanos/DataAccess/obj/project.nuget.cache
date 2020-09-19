@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8U2Za6QoxB7xgKCqKbYRt+xN3xe/pJoFo97TWkJXQz7s5OAZnv3TDvIa7SqDJ4bdcjFwV/YDKVM1lFdzNmVvqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ismel\\source\\repos\\Propietaria1\\RecursosHumanos\\DataAccess\\DataAccess.RecursosHumanos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ismel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ismel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
