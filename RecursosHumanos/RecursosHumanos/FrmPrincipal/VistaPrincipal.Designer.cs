@@ -64,7 +64,7 @@
             this.menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(205, 555);
+            this.menu.Size = new System.Drawing.Size(221, 555);
             this.menu.TabIndex = 0;
             // 
             // bunifuFlatButton8
@@ -89,18 +89,18 @@
             this.bunifuFlatButton8.IconVisible = true;
             this.bunifuFlatButton8.IconZoom = 90D;
             this.bunifuFlatButton8.IsTab = true;
-            this.bunifuFlatButton8.Location = new System.Drawing.Point(12, 506);
+            this.bunifuFlatButton8.Location = new System.Drawing.Point(7, 503);
             this.bunifuFlatButton8.Name = "bunifuFlatButton8";
             this.bunifuFlatButton8.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton8.OnHovercolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton8.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.bunifuFlatButton8.selected = false;
-            this.bunifuFlatButton8.Size = new System.Drawing.Size(200, 49);
+            this.bunifuFlatButton8.Size = new System.Drawing.Size(213, 49);
             this.bunifuFlatButton8.TabIndex = 0;
             this.bunifuFlatButton8.Text = "Reportes";
             this.bunifuFlatButton8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton8.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton8.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton8.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton7
             // 
@@ -124,18 +124,18 @@
             this.bunifuFlatButton7.IconVisible = true;
             this.bunifuFlatButton7.IconZoom = 90D;
             this.bunifuFlatButton7.IsTab = true;
-            this.bunifuFlatButton7.Location = new System.Drawing.Point(12, 455);
+            this.bunifuFlatButton7.Location = new System.Drawing.Point(7, 455);
             this.bunifuFlatButton7.Name = "bunifuFlatButton7";
             this.bunifuFlatButton7.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton7.OnHovercolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton7.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.bunifuFlatButton7.selected = false;
-            this.bunifuFlatButton7.Size = new System.Drawing.Size(200, 49);
+            this.bunifuFlatButton7.Size = new System.Drawing.Size(214, 49);
             this.bunifuFlatButton7.TabIndex = 0;
             this.bunifuFlatButton7.Text = "Gestion Candidatos";
             this.bunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton7.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton7.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton7.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton6
             // 
@@ -159,18 +159,18 @@
             this.bunifuFlatButton6.IconVisible = true;
             this.bunifuFlatButton6.IconZoom = 90D;
             this.bunifuFlatButton6.IsTab = true;
-            this.bunifuFlatButton6.Location = new System.Drawing.Point(12, 400);
+            this.bunifuFlatButton6.Location = new System.Drawing.Point(7, 400);
             this.bunifuFlatButton6.Name = "bunifuFlatButton6";
             this.bunifuFlatButton6.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton6.OnHovercolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton6.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.bunifuFlatButton6.selected = false;
-            this.bunifuFlatButton6.Size = new System.Drawing.Size(200, 49);
+            this.bunifuFlatButton6.Size = new System.Drawing.Size(214, 49);
             this.bunifuFlatButton6.TabIndex = 0;
             this.bunifuFlatButton6.Text = "Gestion Experiencia Laboral";
             this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton6.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton5
             // 
@@ -194,18 +194,18 @@
             this.bunifuFlatButton5.IconVisible = true;
             this.bunifuFlatButton5.IconZoom = 90D;
             this.bunifuFlatButton5.IsTab = true;
-            this.bunifuFlatButton5.Location = new System.Drawing.Point(12, 345);
+            this.bunifuFlatButton5.Location = new System.Drawing.Point(7, 345);
             this.bunifuFlatButton5.Name = "bunifuFlatButton5";
             this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.bunifuFlatButton5.selected = false;
-            this.bunifuFlatButton5.Size = new System.Drawing.Size(200, 49);
+            this.bunifuFlatButton5.Size = new System.Drawing.Size(214, 49);
             this.bunifuFlatButton5.TabIndex = 0;
             this.bunifuFlatButton5.Text = "Gestion Experiencia Laboral";
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton4
             // 
@@ -229,18 +229,18 @@
             this.bunifuFlatButton4.IconVisible = true;
             this.bunifuFlatButton4.IconZoom = 90D;
             this.bunifuFlatButton4.IsTab = true;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(12, 290);
+            this.bunifuFlatButton4.Location = new System.Drawing.Point(3, 290);
             this.bunifuFlatButton4.Name = "bunifuFlatButton4";
             this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.bunifuFlatButton4.selected = false;
-            this.bunifuFlatButton4.Size = new System.Drawing.Size(200, 49);
+            this.bunifuFlatButton4.Size = new System.Drawing.Size(218, 49);
             this.bunifuFlatButton4.TabIndex = 0;
             this.bunifuFlatButton4.Text = "Gestion Candidatos";
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton3
             // 
@@ -264,18 +264,18 @@
             this.bunifuFlatButton3.IconVisible = true;
             this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = true;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(9, 235);
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(3, 247);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.Size = new System.Drawing.Size(200, 49);
+            this.bunifuFlatButton3.Size = new System.Drawing.Size(218, 49);
             this.bunifuFlatButton3.TabIndex = 0;
             this.bunifuFlatButton3.Text = "Gestion Puestos";
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton2
             // 
@@ -299,18 +299,18 @@
             this.bunifuFlatButton2.IconVisible = true;
             this.bunifuFlatButton2.IconZoom = 90D;
             this.bunifuFlatButton2.IsTab = true;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(9, 186);
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(0, 192);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(200, 49);
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(221, 49);
             this.bunifuFlatButton2.TabIndex = 0;
             this.bunifuFlatButton2.Text = "Gestion Capacitaciones";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // btnIdiomas
             // 
@@ -334,18 +334,18 @@
             this.btnIdiomas.IconVisible = true;
             this.btnIdiomas.IconZoom = 90D;
             this.btnIdiomas.IsTab = true;
-            this.btnIdiomas.Location = new System.Drawing.Point(9, 137);
+            this.btnIdiomas.Location = new System.Drawing.Point(2, 137);
             this.btnIdiomas.Name = "btnIdiomas";
             this.btnIdiomas.Normalcolor = System.Drawing.Color.Transparent;
             this.btnIdiomas.OnHovercolor = System.Drawing.Color.Transparent;
             this.btnIdiomas.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.btnIdiomas.selected = false;
-            this.btnIdiomas.Size = new System.Drawing.Size(200, 49);
+            this.btnIdiomas.Size = new System.Drawing.Size(218, 49);
             this.btnIdiomas.TabIndex = 0;
             this.btnIdiomas.Text = "Gestion Idiomas";
             this.btnIdiomas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnIdiomas.Textcolor = System.Drawing.Color.White;
-            this.btnIdiomas.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIdiomas.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // btnCompetencias
             // 
@@ -369,25 +369,25 @@
             this.btnCompetencias.IconVisible = true;
             this.btnCompetencias.IconZoom = 90D;
             this.btnCompetencias.IsTab = true;
-            this.btnCompetencias.Location = new System.Drawing.Point(12, 82);
+            this.btnCompetencias.Location = new System.Drawing.Point(3, 82);
             this.btnCompetencias.Name = "btnCompetencias";
             this.btnCompetencias.Normalcolor = System.Drawing.Color.Transparent;
             this.btnCompetencias.OnHovercolor = System.Drawing.Color.Transparent;
             this.btnCompetencias.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
             this.btnCompetencias.selected = false;
-            this.btnCompetencias.Size = new System.Drawing.Size(200, 49);
+            this.btnCompetencias.Size = new System.Drawing.Size(217, 49);
             this.btnCompetencias.TabIndex = 0;
             this.btnCompetencias.Text = "Gestion Competencias";
             this.btnCompetencias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCompetencias.Textcolor = System.Drawing.Color.White;
-            this.btnCompetencias.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCompetencias.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCompetencias.Click += new System.EventHandler(this.btnCompetencias_Click);
             // 
             // Minimized
             // 
             this.Minimized.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Minimized.Image = ((System.Drawing.Image)(resources.GetObject("Minimized.Image")));
-            this.Minimized.Location = new System.Drawing.Point(681, 5);
+            this.Minimized.Location = new System.Drawing.Point(660, 5);
             this.Minimized.Name = "Minimized";
             this.Minimized.Size = new System.Drawing.Size(31, 28);
             this.Minimized.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -399,7 +399,7 @@
             // 
             this.close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.close.Image = ((System.Drawing.Image)(resources.GetObject("close.Image")));
-            this.close.Location = new System.Drawing.Point(726, 5);
+            this.close.Location = new System.Drawing.Point(710, 3);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(35, 35);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -413,17 +413,17 @@
             this.panel1.Controls.Add(this.close);
             this.panel1.Controls.Add(this.Minimized);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(205, 0);
+            this.panel1.Location = new System.Drawing.Point(221, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(764, 43);
+            this.panel1.Size = new System.Drawing.Size(748, 43);
             this.panel1.TabIndex = 2;
             // 
             // Central
             // 
             this.Central.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Central.Location = new System.Drawing.Point(205, 43);
+            this.Central.Location = new System.Drawing.Point(221, 43);
             this.Central.Name = "Central";
-            this.Central.Size = new System.Drawing.Size(764, 512);
+            this.Central.Size = new System.Drawing.Size(748, 512);
             this.Central.TabIndex = 3;
             // 
             // VistaPrincipal
