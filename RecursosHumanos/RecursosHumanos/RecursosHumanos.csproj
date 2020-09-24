@@ -84,6 +84,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -102,7 +103,15 @@
     <Folder Include="Bunifu\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\anadir.png" />
+    <Content Include="Images\borrar.png" />
+    <Content Include="Images\Box.png" />
+    <Content Include="Images\buscar.png" />
     <Content Include="Images\cancel.png" />
+    <Content Include="Images\Close.png" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\editar%281%29.png" />
+    <Content Include="Images\editar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
