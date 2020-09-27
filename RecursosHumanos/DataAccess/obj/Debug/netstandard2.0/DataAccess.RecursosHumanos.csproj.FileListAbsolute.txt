@@ -1,0 +1,11 @@
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\bin\Debug\netstandard2.0\DataAccess.RecursosHumanos.deps.json
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\bin\Debug\netstandard2.0\DataAccess.RecursosHumanos.dll
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\bin\Debug\netstandard2.0\DataAccess.RecursosHumanos.pdb
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\obj\Debug\netstandard2.0\DataAccess.RecursosHumanos.AssemblyInfoInputs.cache
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\obj\Debug\netstandard2.0\DataAccess.RecursosHumanos.AssemblyInfo.cs
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\obj\Debug\netstandard2.0\DataAccess.RecursosHumanos.dll
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\obj\Debug\netstandard2.0\DataAccess.RecursosHumanos.pdb
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\obj\Debug\netstandard2.0\DataAccess.RecursosHumanos.csproj.CoreCompileInputs.cache
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\bin\Debug\netstandard2.0\dapper.dll
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\obj\Debug\netstandard2.0\DataAccess.RecursosHumanos.csprojAssemblyReference.cache
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\DataAccess\obj\Debug\netstandard2.0\DataAccess.RecursosHumanos.csproj.CopyComplete
