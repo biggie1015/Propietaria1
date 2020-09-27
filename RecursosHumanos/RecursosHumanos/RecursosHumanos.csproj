@@ -36,6 +36,10 @@
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>Bunifu\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
+    <Reference Include="dapper, Version=1.50.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\dapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
@@ -86,6 +90,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -112,6 +117,16 @@
     <Content Include="Images\delete.png" />
     <Content Include="Images\editar%281%29.png" />
     <Content Include="Images\editar.png" />
+    <Content Include="Images\floppy-disk.png" />
+    <Content Include="Images\minimize%281%29.png" />
+    <Content Include="Images\minimize.png" />
+    <None Include="Resources\floppy-disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusnnessLogic.RecursosHumanos\BusnnessLogic.RecursosHumanos.csproj">
+      <Project>{DCC38F44-0E7C-4FEF-A363-913915C9CE3C}</Project>
+      <Name>BusnnessLogic.RecursosHumanos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
