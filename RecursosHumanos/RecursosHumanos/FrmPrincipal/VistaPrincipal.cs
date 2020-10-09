@@ -19,8 +19,6 @@ namespace RecursosHumanos.FrmPrincipal
         public VistaPrincipal()
         {
             InitializeComponent();
-            
-            
         }
 
 
