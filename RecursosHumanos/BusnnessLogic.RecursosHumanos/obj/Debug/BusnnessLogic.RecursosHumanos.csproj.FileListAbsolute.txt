@@ -9,3 +9,14 @@ C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosH
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\obj\Debug\BusnnessLogic.RecursosHumanos.csproj.CopyComplete
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\obj\Debug\BusnnessLogic.RecursosHumanos.dll
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\obj\Debug\BusnnessLogic.RecursosHumanos.pdb
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\bin\Debug\BusnnessLogic.RecursosHumanos.dll
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\bin\Debug\BusnnessLogic.RecursosHumanos.pdb
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\bin\Debug\DataAccess.RecursosHumano.dll
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\bin\Debug\Dapper.dll
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\bin\Debug\DataAccess.RecursosHumano.pdb
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\bin\Debug\Dapper.xml
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\obj\Debug\BusnnessLogic.RecursosHumanos.csprojAssemblyReference.cache
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\obj\Debug\BusnnessLogic.RecursosHumanos.csproj.CoreCompileInputs.cache
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\obj\Debug\BusnnessLogic.RecursosHumanos.csproj.CopyComplete
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\obj\Debug\BusnnessLogic.RecursosHumanos.dll
+C:\Users\JavierCrack\Source\Repos\biggie1015\Propietaria1\RecursosHumanos\BusnnessLogic.RecursosHumanos\obj\Debug\BusnnessLogic.RecursosHumanos.pdb
