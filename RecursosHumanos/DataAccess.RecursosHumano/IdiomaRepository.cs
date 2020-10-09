@@ -1,5 +1,4 @@
-﻿
-using DataAccess.RecursosHumano.Models;
+﻿using DataAccess.RecursosHumano.Models;
 using DataAccess.RecursosHumanos.BaseRepository;
 using System;
 using System.Collections.Generic;
@@ -10,33 +9,34 @@ using System.Threading.Tasks;
 
 namespace DataAccess.RecursosHumano
 {
-    public class CompetenciaRepository
+    public class IdiomaRepository
     {
         private BaseRepository BaseRepository = null;
 
-        public CompetenciaRepository()
+        public IdiomaRepository()
         {
             BaseRepository = new BaseRepository();
+
         }
         public DataTable GetAll()
         {
-            var result = BaseRepository.Query<Competencia>("select * from GCompetencias where Activo = 1");
+            var result = BaseRepository.Query<Idioma>("select * from GIdiomas where Activo = 1");
             var retorno = BaseRepository.ToDataTable(result);
             return retorno;
 
         }
 
 
-        public int Create(string descripcion)
+        public int Create(string nombre)
         {
             try
             {
                 string query = @"
-                INSERT INTO GCompetencias VALUES (@Descripcion,1)
+                INSERT INTO GIdiomas VALUES (@Nombre,1)
                 ";
 
 
-                var result = BaseRepository.Query<int>(query, new { Descripcion = descripcion } ).FirstOrDefault();
+                var result = BaseRepository.Query<int>(query, new { Nombre = nombre }).FirstOrDefault();
                 return result;
             }
             catch (Exception)
@@ -46,20 +46,20 @@ namespace DataAccess.RecursosHumano
             }
         }
 
-        public DataTable GetByID(string description)
+        public DataTable GetByID(string nombre)
         {
             try
             {
                 string query = @"
-                SELECT * FROM GCompetencias WHERE Descripcion LIKE  '%'+@Descripcion+'%' and where Activo = 1
+                SELECT * FROM GIdiomas WHERE Nombre LIKE  '%'+@Nombre+'%' and  Activo = 1
                 ";
 
 
-                var result = BaseRepository.Query<Competencia>(query, new { Descripcion = description });
+                var result = BaseRepository.Query<Idioma>(query, new { Nombre = nombre });
                 var retorno = BaseRepository.ToDataTable(result);
                 return retorno;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 throw;
@@ -67,21 +67,21 @@ namespace DataAccess.RecursosHumano
         }
 
 
-        public int Update(Competencia competencia)
+        public int Update(Idioma idioma)
         {
             try
             {
 
-      
+
 
                 string query = @"
-                UPDATE GCompetencias 
-                SET Descripcion = @Descripcion
-                WHERE CompetenciaID = @CompetenciaID
+                UPDATE GIdiomas 
+                SET Nombre = @Nombre
+                WHERE IdiomaID = @ID
                 ";
 
 
-                var result = BaseRepository.Query<int>(query, new  { Descripcion = competencia.Descripcion, CompetenciaID = competencia.CompetenciaID }).FirstOrDefault();
+                var result = BaseRepository.Query<int>(query, new { Nombre = idioma.Nombre, ID = idioma.IdiomaID }).FirstOrDefault();
                 return result;
             }
             catch (Exception)
@@ -99,12 +99,12 @@ namespace DataAccess.RecursosHumano
 
 
                 string query = @"
-                DELETE FROM GCompetencias
-                WHERE CompetenciaID = @CompetenciaID
+                DELETE FROM GIdiomas
+                WHERE IdiomaID = @IdiomaID
                 ";
 
 
-                var result = BaseRepository.Query<int>(query, new {CompetenciaID = ID }).FirstOrDefault();
+                var result = BaseRepository.Query<int>(query, new { IdiomaID = ID }).FirstOrDefault();
                 return result;
             }
             catch (Exception)

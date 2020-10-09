@@ -366,6 +366,7 @@
             this.btnIdiomas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnIdiomas.Textcolor = System.Drawing.Color.White;
             this.btnIdiomas.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIdiomas.Click += new System.EventHandler(this.btnIdiomas_Click);
             // 
             // btnCompetencias
             // 

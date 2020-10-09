@@ -66,6 +66,12 @@
     <Compile Include="FrmCompetencias\FrmComptenecia.Designer.cs">
       <DependentUpon>FrmComptenecia.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmIdiomas\FrmIdioma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIdiomas\FrmIdioma.Designer.cs">
+      <DependentUpon>FrmIdioma.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal\VistaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCompetencias\FrmComptenecia.resx">
       <DependentUpon>FrmComptenecia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIdiomas\FrmIdioma.resx">
+      <DependentUpon>FrmIdioma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal\VistaPrincipal.resx">
       <DependentUpon>VistaPrincipal.cs</DependentUpon>

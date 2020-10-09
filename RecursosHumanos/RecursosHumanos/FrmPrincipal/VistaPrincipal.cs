@@ -1,4 +1,5 @@
 ﻿using RecursosHumanos.FrmCompetencias;
+using RecursosHumanos.FrmIdiomas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -87,6 +88,11 @@ namespace RecursosHumanos.FrmPrincipal
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnIdiomas_Click(object sender, EventArgs e)
+        {
+            ChangeViewForm(new FrmIdioma());
         }
     }
 }
