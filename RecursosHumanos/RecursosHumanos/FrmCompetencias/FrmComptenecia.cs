@@ -34,7 +34,7 @@ namespace RecursosHumanos.FrmCompetencias
 
         private void dgvCompetencias_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+            string prueba="";
         }
 
         private void btnEditar_Click(object sender, EventArgs e)

@@ -15,6 +15,7 @@ namespace RecursosHumanos.FrmIdiomas
     {
         private GidiomasLogic gidiomasLogic;
         private bool Editar = false;
+        private bool  prueba = false;
         public FrmIdioma()
         {
             InitializeComponent();
