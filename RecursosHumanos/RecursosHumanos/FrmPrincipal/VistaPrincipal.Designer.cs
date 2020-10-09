@@ -30,8 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VistaPrincipal));
             this.menu = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuFlatButton8 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton7 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -39,21 +41,23 @@
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnIdiomas = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnCompetencias = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.Minimized = new System.Windows.Forms.PictureBox();
-            this.close = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.Central = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.menu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Minimized)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
-            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // menu
             // 
             this.menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(32)))));
+            this.menu.Controls.Add(this.panel2);
             this.menu.Controls.Add(this.bunifuFlatButton8);
             this.menu.Controls.Add(this.bunifuFlatButton7);
+            this.menu.Controls.Add(this.panel1);
             this.menu.Controls.Add(this.bunifuFlatButton6);
             this.menu.Controls.Add(this.bunifuFlatButton5);
             this.menu.Controls.Add(this.bunifuFlatButton4);
@@ -66,6 +70,14 @@
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(221, 555);
             this.menu.TabIndex = 0;
+            this.menu.Paint += new System.Windows.Forms.PaintEventHandler(this.menu_Paint);
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(223, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(701, 29);
+            this.panel2.TabIndex = 4;
             // 
             // bunifuFlatButton8
             // 
@@ -100,7 +112,7 @@
             this.bunifuFlatButton8.Text = "Reportes";
             this.bunifuFlatButton8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton8.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton8.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton8.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton7
             // 
@@ -135,7 +147,15 @@
             this.bunifuFlatButton7.Text = "Gestion Candidatos";
             this.bunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton7.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton7.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton7.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
+            this.panel1.Location = new System.Drawing.Point(221, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(748, 43);
+            this.panel1.TabIndex = 2;
             // 
             // bunifuFlatButton6
             // 
@@ -170,7 +190,7 @@
             this.bunifuFlatButton6.Text = "Gestion Experiencia Laboral";
             this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton6.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton6.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton5
             // 
@@ -205,7 +225,7 @@
             this.bunifuFlatButton5.Text = "Gestion Experiencia Laboral";
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton4
             // 
@@ -240,7 +260,7 @@
             this.bunifuFlatButton4.Text = "Gestion Candidatos";
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton3
             // 
@@ -275,7 +295,7 @@
             this.bunifuFlatButton3.Text = "Gestion Puestos";
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton2
             // 
@@ -310,7 +330,7 @@
             this.bunifuFlatButton2.Text = "Gestion Capacitaciones";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // btnIdiomas
             // 
@@ -345,7 +365,8 @@
             this.btnIdiomas.Text = "Gestion Idiomas";
             this.btnIdiomas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnIdiomas.Textcolor = System.Drawing.Color.White;
-            this.btnIdiomas.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIdiomas.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIdiomas.Click += new System.EventHandler(this.btnIdiomas_Click);
             // 
             // btnCompetencias
             // 
@@ -380,51 +401,56 @@
             this.btnCompetencias.Text = "Gestion Competencias";
             this.btnCompetencias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCompetencias.Textcolor = System.Drawing.Color.White;
-            this.btnCompetencias.TextFont = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCompetencias.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCompetencias.Click += new System.EventHandler(this.btnCompetencias_Click);
-            // 
-            // Minimized
-            // 
-            this.Minimized.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Minimized.Image = ((System.Drawing.Image)(resources.GetObject("Minimized.Image")));
-            this.Minimized.Location = new System.Drawing.Point(660, 5);
-            this.Minimized.Name = "Minimized";
-            this.Minimized.Size = new System.Drawing.Size(31, 28);
-            this.Minimized.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Minimized.TabIndex = 1;
-            this.Minimized.TabStop = false;
-            this.Minimized.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // close
-            // 
-            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.close.Image = ((System.Drawing.Image)(resources.GetObject("close.Image")));
-            this.close.Location = new System.Drawing.Point(710, 3);
-            this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(35, 35);
-            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.close.TabIndex = 0;
-            this.close.TabStop = false;
-            this.close.Click += new System.EventHandler(this.close_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
-            this.panel1.Controls.Add(this.close);
-            this.panel1.Controls.Add(this.Minimized);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(221, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(748, 43);
-            this.panel1.TabIndex = 2;
             // 
             // Central
             // 
             this.Central.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Central.Location = new System.Drawing.Point(221, 43);
+            this.Central.Location = new System.Drawing.Point(221, 0);
             this.Central.Name = "Central";
-            this.Central.Size = new System.Drawing.Size(748, 512);
+            this.Central.Size = new System.Drawing.Size(748, 555);
             this.Central.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(720, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(28, 55);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.ErrorImage")));
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
+            this.pictureBox2.Location = new System.Drawing.Point(675, 9);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Padding = new System.Windows.Forms.Padding(0, 0, 50, 0);
+            this.pictureBox2.Size = new System.Drawing.Size(26, 55);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(194)))), ((int)(((byte)(133)))));
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(221, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(748, 55);
+            this.panel3.TabIndex = 4;
             // 
             // VistaPrincipal
             // 
@@ -432,8 +458,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(969, 555);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.Central);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VistaPrincipal";
@@ -442,9 +468,9 @@
             this.Load += new System.EventHandler(this.FrmPrincipal);
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Minimized)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
-            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -452,8 +478,6 @@
         #endregion
 
         private System.Windows.Forms.Panel menu;
-        private System.Windows.Forms.PictureBox Minimized;
-        private System.Windows.Forms.PictureBox close;
         private System.Windows.Forms.Panel panel1;
         private Bunifu.Framework.UI.BunifuFlatButton btnCompetencias;
         private System.Windows.Forms.Panel Central;
@@ -465,5 +489,9 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
         private Bunifu.Framework.UI.BunifuFlatButton btnIdiomas;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

@@ -3,6 +3,7 @@ C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Deb
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Debug\RecursosHumanos.pdb
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Debug\Bunifu_UI_v1.52.dll
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.csprojAssemblyReference.cache
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmCompetencias.FrmComptenecia.resources
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmPrincipal.VistaPrincipal.resources
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.Properties.Resources.resources
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.csproj.GenerateResource.cache
@@ -10,4 +11,9 @@ C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Deb
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.csproj.CopyComplete
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.exe
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.pdb
-C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmCompetencias.FrmComptenecia.resources
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Debug\Dapper.dll
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Debug\BusnnessLogic.RecursosHumanos.dll
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Debug\DataAccess.RecursosHumano.dll
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Debug\BusnnessLogic.RecursosHumanos.pdb
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Debug\DataAccess.RecursosHumano.pdb
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmIdiomas.FrmIdioma.resources
