@@ -94,7 +94,7 @@ namespace RecursosHumanos.FrmCompetencias
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
 
-            dgvCompetencias.DataSource = competencias.getByID(txtSearch.Text);
+             dgvCompetencias.DataSource = competencias.getByID(txtSearch.Text);
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
