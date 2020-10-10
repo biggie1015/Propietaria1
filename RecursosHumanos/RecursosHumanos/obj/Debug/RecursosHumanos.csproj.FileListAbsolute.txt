@@ -18,3 +18,4 @@ C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Deb
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\bin\Debug\DataAccess.RecursosHumano.pdb
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmIdiomas.FrmIdioma.resources
 C:\Users\Ismel\Source\Repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmCapacitacion.FrmCapacitacion.resources
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmPuesto.FrmPuesto.resources
