@@ -1,4 +1,5 @@
-﻿using RecursosHumanos.FrmCompetencias;
+﻿using RecursosHumanos.FrmCapacitacion;
+using RecursosHumanos.FrmCompetencias;
 using RecursosHumanos.FrmIdiomas;
 using System;
 using System.Collections.Generic;
@@ -93,6 +94,11 @@ namespace RecursosHumanos.FrmPrincipal
         private void btnIdiomas_Click(object sender, EventArgs e)
         {
             ChangeViewForm(new FrmIdioma());
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            ChangeViewForm(new FrmCapacitacion.FrmCapacitacion());
         }
     }
 }

@@ -104,6 +104,11 @@ namespace RecursosHumanos.FrmCompetencias
             Editar = false;
 
         }
+
+        private void dgvCompetencias_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 
     
