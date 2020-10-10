@@ -57,7 +57,7 @@ namespace DataAccess.RecursosHumano
 
                 var result = BaseRepository.Query<Idioma>(query, new { Nombre = nombre });
                 var retorno = BaseRepository.ToDataTable(result);
-                var prueba;
+              
                 return retorno;
             }
             catch (Exception ex)

@@ -65,9 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseRepository.cs" />
+    <Compile Include="CapacitacionRepository.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="CompetenciaRepository.cs" />
     <Compile Include="IdiomaRepository.cs" />
+    <Compile Include="Models\Capacitacion.cs" />
     <Compile Include="Models\Competencia.cs" />
     <Compile Include="Models\Idioma.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
