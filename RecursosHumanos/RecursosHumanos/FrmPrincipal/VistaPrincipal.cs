@@ -100,5 +100,10 @@ namespace RecursosHumanos.FrmPrincipal
         {
             ChangeViewForm(new FrmCapacitacion.FrmCapacitacion());
         }
+
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        {
+            ChangeViewForm(new FrmPuesto.FrmPuesto());
+        }
     }
 }
