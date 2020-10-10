@@ -113,7 +113,7 @@ namespace RecursosHumanos.FrmCapacitacion
             {
                 if(cbxNivelAdd.SelectedIndex == 0)
                 {
-                    MessageBox.Show("Debe de seleccionar un nivel ");
+                     MessageBox.Show("Debe de seleccionar un nivel ");
                 }
                 else
                 {
