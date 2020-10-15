@@ -65,12 +65,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseRepository.cs" />
+    <Compile Include="CandidatosRepository.cs" />
     <Compile Include="CapacitacionRepository.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="ComboBox.cs" />
     <Compile Include="CompetenciaRepository.cs" />
     <Compile Include="IdiomaRepository.cs" />
+    <Compile Include="Models\Candidato.cs" />
     <Compile Include="Models\Capacitacion.cs" />
     <Compile Include="Models\Competencia.cs" />
+    <Compile Include="Models\ExperienciaLaboral.cs" />
     <Compile Include="Models\Idioma.cs" />
     <Compile Include="Models\Puesto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
