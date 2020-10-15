@@ -99,6 +99,8 @@ namespace RecursosHumanos.FrmCapacitacion
             {
                 MessageBox.Show("Debe elegir una fila");
             }
+
+            cleanTxt(this);
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)

@@ -17,7 +17,8 @@ namespace RecursosHumanos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VistaPrincipal());
+            Application.Run(new  FrmCandidato.FrmCandidato());
+            //Application.Run(new FrmPrincipal.VistaPrincipal());
         }
     }
 }

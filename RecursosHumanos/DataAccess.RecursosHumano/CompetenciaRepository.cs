@@ -51,7 +51,7 @@ namespace DataAccess.RecursosHumano
             try
             {
                 string query = @"
-                SELECT * FROM GCompetencias WHERE Descripcion LIKE  '%'+@Descripcion+'%' and where Activo = 1
+                SELECT * FROM GCompetencias WHERE Descripcion LIKE  '%'+@Descripcion+'%' and  Activo = 1
                 ";
 
 

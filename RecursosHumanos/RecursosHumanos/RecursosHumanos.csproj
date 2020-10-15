@@ -60,6 +60,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCandidato\FrmCandidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCandidato\FrmCandidato.Designer.cs">
+      <DependentUpon>FrmCandidato.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCapacitacion\FrmCapacitacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,18 @@
     </Compile>
     <Compile Include="FrmCompetencias\FrmComptenecia.Designer.cs">
       <DependentUpon>FrmComptenecia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfirmacionCandidato\FrmConfirmacionCandidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfirmacionCandidato\FrmConfirmacionCandidato.Designer.cs">
+      <DependentUpon>FrmConfirmacionCandidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfirmacionCandidato\FrmExperienciaLaboral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfirmacionCandidato\FrmExperienciaLaboral.Designer.cs">
+      <DependentUpon>FrmExperienciaLaboral.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmIdiomas\FrmIdioma.cs">
       <SubType>Form</SubType>
@@ -90,13 +108,28 @@
     <Compile Include="FrmPuesto\FrmPuesto.Designer.cs">
       <DependentUpon>FrmPuesto.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSelectCapacitacion\FrmSelectedCapacitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectCapacitacion\FrmSelectedCapacitacion.Designer.cs">
+      <DependentUpon>FrmSelectedCapacitacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCandidato\FrmCandidato.resx">
+      <DependentUpon>FrmCandidato.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCapacitacion\FrmCapacitacion.resx">
       <DependentUpon>FrmCapacitacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCompetencias\FrmComptenecia.resx">
       <DependentUpon>FrmComptenecia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfirmacionCandidato\FrmConfirmacionCandidato.resx">
+      <DependentUpon>FrmConfirmacionCandidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfirmacionCandidato\FrmExperienciaLaboral.resx">
+      <DependentUpon>FrmExperienciaLaboral.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmIdiomas\FrmIdioma.resx">
       <DependentUpon>FrmIdioma.cs</DependentUpon>
@@ -106,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPuesto\FrmPuesto.resx">
       <DependentUpon>FrmPuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectCapacitacion\FrmSelectedCapacitacion.resx">
+      <DependentUpon>FrmSelectedCapacitacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,6 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Bunifu\" />
+    <Folder Include="FrmExperienciaLaboral\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\anadir.png" />
