@@ -73,6 +73,7 @@
     <Compile Include="EmpleadoRepository.cs" />
     <Compile Include="IdiomaRepository.cs" />
     <Compile Include="Models\Candidato.cs" />
+    <Compile Include="Models\CandidatoProceso.cs" />
     <Compile Include="Models\Capacitacion.cs" />
     <Compile Include="Models\Competencia.cs" />
     <Compile Include="Models\ExperienciaLaboral.cs" />

@@ -90,6 +90,12 @@
     <Compile Include="FrmConfirmacionCandidato\FrmExperienciaLaboral.Designer.cs">
       <DependentUpon>FrmExperienciaLaboral.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDetalleCandidatos\FrmDetalleCandidatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetalleCandidatos\FrmDetalleCandidatos.Designer.cs">
+      <DependentUpon>FrmDetalleCandidatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmIdiomas\FrmIdioma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,12 @@
     </Compile>
     <Compile Include="FrmPrincipal\VistaPrincipal.Designer.cs">
       <DependentUpon>VistaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcesoCandidatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcesoCandidatos.Designer.cs">
+      <DependentUpon>FrmProcesoCandidatos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPuesto\FrmPuesto.cs">
       <SubType>Form</SubType>
@@ -137,6 +149,9 @@
     <EmbeddedResource Include="FrmConfirmacionCandidato\FrmExperienciaLaboral.resx">
       <DependentUpon>FrmExperienciaLaboral.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetalleCandidatos\FrmDetalleCandidatos.resx">
+      <DependentUpon>FrmDetalleCandidatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmIdiomas\FrmIdioma.resx">
       <DependentUpon>FrmIdioma.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal\VistaPrincipal.resx">
       <DependentUpon>VistaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcesoCandidatos.resx">
+      <DependentUpon>FrmProcesoCandidatos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPuesto\FrmPuesto.resx">
       <DependentUpon>FrmPuesto.cs</DependentUpon>
