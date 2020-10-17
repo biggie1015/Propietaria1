@@ -24,3 +24,5 @@ C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Deb
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmSelectCapacitacion.FrmSelectedCapacitacion.resources
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmConfirmacionCandidato.FrmExperienciaLaboral.resources
 C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmLogin.FrmLogin.resources
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmProcesoCandidatos.resources
+C:\Users\Ismel\source\repos\Propietaria1\RecursosHumanos\RecursosHumanos\obj\Debug\RecursosHumanos.FrmDetalleCandidatos.FrmDetalleCandidatos.resources

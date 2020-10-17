@@ -220,10 +220,10 @@ namespace DataAccess.RecursosHumano
                 ";
 
 
-                var result = BaseRepository.Query<int>(query, new { Idioma = Idioma, CandidatoID = CandidatoID }).FirstOrDefault();
+                var result = BaseRepository.Query<int>(query, new { IdiomaID = Idioma, CandidatoID = CandidatoID }).FirstOrDefault();
                 return result;
             }
-            catch (Exception)
+            catch (Exception e )
             {
 
                 throw;

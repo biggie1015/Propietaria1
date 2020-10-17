@@ -108,7 +108,8 @@ namespace RecursosHumanos.FrmPrincipal
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-
+            ChangeViewForm(new FrmProcesoCandidatos());
+          
         }
     }
 }
