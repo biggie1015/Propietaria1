@@ -46,6 +46,7 @@
     <Compile Include="GCandidatosLogic.cs" />
     <Compile Include="GCapacitacionLogic.cs" />
     <Compile Include="GCompetenciasLogic.cs" />
+    <Compile Include="GEmpleadosLogic.cs" />
     <Compile Include="GidiomasLogic.cs" />
     <Compile Include="GpuestoLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
