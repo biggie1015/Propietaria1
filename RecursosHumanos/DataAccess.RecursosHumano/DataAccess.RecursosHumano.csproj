@@ -70,6 +70,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="ComboBox.cs" />
     <Compile Include="CompetenciaRepository.cs" />
+    <Compile Include="EmpleadoRepository.cs" />
     <Compile Include="IdiomaRepository.cs" />
     <Compile Include="Models\Candidato.cs" />
     <Compile Include="Models\Capacitacion.cs" />

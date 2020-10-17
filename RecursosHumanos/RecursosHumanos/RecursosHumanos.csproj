@@ -96,6 +96,12 @@
     <Compile Include="FrmIdiomas\FrmIdioma.Designer.cs">
       <DependentUpon>FrmIdioma.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLogin\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal\VistaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmIdiomas\FrmIdioma.resx">
       <DependentUpon>FrmIdioma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal\VistaPrincipal.resx">
       <DependentUpon>VistaPrincipal.cs</DependentUpon>
