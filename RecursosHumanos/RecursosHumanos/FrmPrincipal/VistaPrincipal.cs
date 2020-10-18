@@ -1,5 +1,6 @@
 ﻿using RecursosHumanos.FrmCapacitacion;
 using RecursosHumanos.FrmCompetencias;
+using RecursosHumanos.FrmCrearReporte;
 using RecursosHumanos.FrmIdiomas;
 using System;
 using System.Collections.Generic;
@@ -110,6 +111,19 @@ namespace RecursosHumanos.FrmPrincipal
         {
             ChangeViewForm(new FrmProcesoCandidatos());
           
+        }
+
+        private void ReporteEmpleados_Click(object sender, EventArgs e)
+        {
+            ChangeViewForm(new FrmCrearReporte.FrmCrearReporte());
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            var frmLogin = new FrmLogin.FrmLogin();
+            frmLogin.Show();
+            
         }
     }
 }
