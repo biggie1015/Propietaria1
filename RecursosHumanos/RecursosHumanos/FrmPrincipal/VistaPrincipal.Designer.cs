@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VistaPrincipal));
             this.menu = new System.Windows.Forms.Panel();
+            this.ReporteEmpleados = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -41,15 +42,19 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // menu
             // 
             this.menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(32)))));
+            this.menu.Controls.Add(this.pictureBox3);
+            this.menu.Controls.Add(this.ReporteEmpleados);
             this.menu.Controls.Add(this.bunifuFlatButton1);
             this.menu.Controls.Add(this.panel2);
             this.menu.Controls.Add(this.panel1);
@@ -63,6 +68,42 @@
             this.menu.Size = new System.Drawing.Size(221, 555);
             this.menu.TabIndex = 0;
             this.menu.Paint += new System.Windows.Forms.PaintEventHandler(this.menu_Paint);
+            // 
+            // ReporteEmpleados
+            // 
+            this.ReporteEmpleados.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.ReporteEmpleados.AutoSize = true;
+            this.ReporteEmpleados.BackColor = System.Drawing.Color.Transparent;
+            this.ReporteEmpleados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ReporteEmpleados.BorderRadius = 0;
+            this.ReporteEmpleados.ButtonText = "Reporte Empleados";
+            this.ReporteEmpleados.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ReporteEmpleados.DisabledColor = System.Drawing.Color.Gray;
+            this.ReporteEmpleados.Iconcolor = System.Drawing.Color.Transparent;
+            this.ReporteEmpleados.Iconimage = null;
+            this.ReporteEmpleados.Iconimage_right = null;
+            this.ReporteEmpleados.Iconimage_right_Selected = null;
+            this.ReporteEmpleados.Iconimage_Selected = null;
+            this.ReporteEmpleados.IconMarginLeft = 0;
+            this.ReporteEmpleados.IconMarginRight = 0;
+            this.ReporteEmpleados.IconRightVisible = true;
+            this.ReporteEmpleados.IconRightZoom = 0D;
+            this.ReporteEmpleados.IconVisible = true;
+            this.ReporteEmpleados.IconZoom = 90D;
+            this.ReporteEmpleados.IsTab = true;
+            this.ReporteEmpleados.Location = new System.Drawing.Point(3, 430);
+            this.ReporteEmpleados.Name = "ReporteEmpleados";
+            this.ReporteEmpleados.Normalcolor = System.Drawing.Color.Transparent;
+            this.ReporteEmpleados.OnHovercolor = System.Drawing.Color.Transparent;
+            this.ReporteEmpleados.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(176)))), ((int)(((byte)(93)))));
+            this.ReporteEmpleados.selected = false;
+            this.ReporteEmpleados.Size = new System.Drawing.Size(218, 49);
+            this.ReporteEmpleados.TabIndex = 5;
+            this.ReporteEmpleados.Text = "Reporte Empleados";
+            this.ReporteEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ReporteEmpleados.Textcolor = System.Drawing.Color.White;
+            this.ReporteEmpleados.TextFont = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReporteEmpleados.Click += new System.EventHandler(this.ReporteEmpleados_Click);
             // 
             // bunifuFlatButton1
             // 
@@ -307,6 +348,17 @@
             this.panel3.Size = new System.Drawing.Size(748, 55);
             this.panel3.TabIndex = 4;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.InitialImage")));
+            this.pictureBox3.Location = new System.Drawing.Point(154, 485);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(61, 62);
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // VistaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -326,6 +378,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -344,5 +397,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton ReporteEmpleados;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

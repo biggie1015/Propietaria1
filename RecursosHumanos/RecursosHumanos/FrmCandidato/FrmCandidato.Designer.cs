@@ -55,6 +55,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.checkIdiomas = new System.Windows.Forms.CheckedListBox();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Atras = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -417,12 +418,49 @@
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
+            // Atras
+            // 
+            this.Atras.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(41)))), ((int)(((byte)(121)))));
+            this.Atras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(41)))), ((int)(((byte)(121)))));
+            this.Atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Atras.BorderRadius = 0;
+            this.Atras.ButtonText = "Iniciar Seccion";
+            this.Atras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Atras.DisabledColor = System.Drawing.Color.Gray;
+            this.Atras.ForeColor = System.Drawing.Color.DarkGray;
+            this.Atras.Iconcolor = System.Drawing.Color.Transparent;
+            this.Atras.Iconimage = null;
+            this.Atras.Iconimage_right = null;
+            this.Atras.Iconimage_right_Selected = null;
+            this.Atras.Iconimage_Selected = null;
+            this.Atras.IconMarginLeft = 0;
+            this.Atras.IconMarginRight = 0;
+            this.Atras.IconRightVisible = true;
+            this.Atras.IconRightZoom = 0D;
+            this.Atras.IconVisible = true;
+            this.Atras.IconZoom = 60D;
+            this.Atras.IsTab = false;
+            this.Atras.Location = new System.Drawing.Point(23, 25);
+            this.Atras.Name = "Atras";
+            this.Atras.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(41)))), ((int)(((byte)(121)))));
+            this.Atras.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
+            this.Atras.OnHoverTextColor = System.Drawing.Color.White;
+            this.Atras.selected = false;
+            this.Atras.Size = new System.Drawing.Size(157, 30);
+            this.Atras.TabIndex = 46;
+            this.Atras.Text = "Iniciar Seccion";
+            this.Atras.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Atras.Textcolor = System.Drawing.Color.White;
+            this.Atras.TextFont = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Atras.Click += new System.EventHandler(this.Atras_Click);
+            // 
             // FrmCandidato
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1240, 634);
+            this.Controls.Add(this.Atras);
             this.Controls.Add(this.bunifuFlatButton2);
             this.Controls.Add(this.checkIdiomas);
             this.Controls.Add(this.label10);
@@ -490,5 +528,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckedListBox checkIdiomas;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
+        private Bunifu.Framework.UI.BunifuFlatButton Atras;
     }
 }

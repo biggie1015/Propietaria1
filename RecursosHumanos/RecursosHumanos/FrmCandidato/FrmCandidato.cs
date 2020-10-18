@@ -172,5 +172,12 @@ namespace RecursosHumanos.FrmCandidato
             frmExp.Show();
 
         }
+
+        private void Atras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var frmLogin = new FrmLogin.FrmLogin();
+            frmLogin.Show();
+        }
     }
 }
