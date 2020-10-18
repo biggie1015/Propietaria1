@@ -110,54 +110,63 @@ namespace RecursosHumanos.FrmCapacitacion
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            var selectCombo = (Nivel)cbxNivelAdd.SelectedItem;
-            if (Editar)
+            if(dtpFinal.Value > dtpInicial.Value)
             {
-                if(cbxNivelAdd.SelectedIndex == 0)
-                {
-                    MessageBox.Show("Debe de seleccionar un nivel ");
-                }
-                else
-                {
-                    Capacitacion capacitacion = new Capacitacion();
-                    capacitacion.CapacitacionID = Convert.ToInt32(txtID.Text);
-                    capacitacion.Descripcion = txtDescripcion.Text;
-                    capacitacion.Institucion = txtInstitucion.Text;
-                    capacitacion.Fecha = dtpInicial.Value.ToString();
-                    capacitacion.FechaFinal = dtpFinal.Value.ToString();
-                    capacitacion.NivelID = selectCombo.NivelID;
-                    capacitacionLogic.Update(capacitacion);
-                    txtID.Text = "";
-                    txtDescripcion.Text = "";
-                }
-             
+                MessageBox.Show("Error. Debe de seleccionar una fecha correcta");
             }
             else
             {
-                if(cbxNivelAdd.SelectedIndex == 0)
+                var selectCombo = (Nivel)cbxNivelAdd.SelectedItem;
+                if (Editar)
                 {
-                    MessageBox.Show("Debe de seleccionar un nivel ");
+                    if (cbxNivelAdd.SelectedIndex == 0)
+                    {
+                        MessageBox.Show("Debe de seleccionar un nivel ");
+                    }
+                    else
+                    {
+                        Capacitacion capacitacion = new Capacitacion();
+                        capacitacion.CapacitacionID = Convert.ToInt32(txtID.Text);
+                        capacitacion.Descripcion = txtDescripcion.Text;
+                        capacitacion.Institucion = txtInstitucion.Text;
+                        capacitacion.Fecha = dtpInicial.Value.ToString();
+                        capacitacion.FechaFinal = dtpFinal.Value.ToString();
+                        capacitacion.NivelID = selectCombo.NivelID;
+                        capacitacionLogic.Update(capacitacion);
+                        txtID.Text = "";
+                        txtDescripcion.Text = "";
+                    }
+
                 }
                 else
                 {
-                    Capacitacion capacitacion = new Capacitacion();
-                    capacitacion.Descripcion = txtDescripcion.Text;
-                    capacitacion.Institucion = txtInstitucion.Text;
-                    capacitacion.Fecha = dtpInicial.Value.ToString();
-                    capacitacion.FechaFinal = dtpFinal.Value.ToString();
-                    capacitacion.NivelID = selectCombo.NivelID;
-                    capacitacionLogic.Create(capacitacion);
+                    if (cbxNivelAdd.SelectedIndex == 0)
+                    {
+                        MessageBox.Show("Debe de seleccionar un nivel ");
+                    }
+                    else
+                    {
+                        Capacitacion capacitacion = new Capacitacion();
+                        capacitacion.Descripcion = txtDescripcion.Text;
+                        capacitacion.Institucion = txtInstitucion.Text;
+                        capacitacion.Fecha = dtpInicial.Value.ToString();
+                        capacitacion.FechaFinal = dtpFinal.Value.ToString();
+                        capacitacion.NivelID = selectCombo.NivelID;
+                        capacitacionLogic.Create(capacitacion);
+                    }
+
+
+                    //competencias.Create(txtDescripcion.Text);
+                    //txtID.Text = "";
+                    //txtDescripcion.Text = "";
+
                 }
-
-             
-                //competencias.Create(txtDescripcion.Text);
-                //txtID.Text = "";
-                //txtDescripcion.Text = "";
-
+                Editar = false;
+                cleanTxt(this);
+                dgvCapacitacion.DataSource = capacitacionLogic.GetAll();
             }
-            Editar = false;
-            cleanTxt(this);
-            dgvCapacitacion.DataSource = capacitacionLogic.GetAll();
+
+           
         }
 
 
