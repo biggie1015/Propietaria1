@@ -91,7 +91,7 @@ namespace RecursosHumanos.FrmLogin
             string password = txtPassword.Text;
 
 
-            if(GEmpleadosLogic.InicioSeccion(user) > 0)
+            if(GEmpleadosLogic.InicioSeccion(user) > 0 && password == "123456")
             {
                 var frmPincipal = new FrmPrincipal.VistaPrincipal();
                 this.Hide();
